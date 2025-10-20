@@ -19,12 +19,12 @@ gcc -o checkers main.c bitboard_checkers.c
 ./checkers
 
 ## How to Play
--1.Run the program and you'll see the checkers board
--2.You play as RED (represented by 'r' for regular pieces and 'R' for kings)
--3.The computer plays as BLACK (represented by 'b' and 'B')
--4.Enter moves in the format: from_row from_col to_row to_col
--5.Example: 5 0 4 1 moves a piece from row 5, column 0 to row 4, column 1
--6.Type -1 to quit the game
+- 1.Run the program and you'll see the checkers board
+- 2.You play as RED (represented by 'r' for regular pieces and 'R' for kings)
+- 3.The computer plays as BLACK (represented by 'b' and 'B')
+- 4.Enter moves in the format: from_row from_col to_row to_col
+- 5.Example: 5 0 4 1 moves a piece from row 5, column 0 to row 4, column 1
+- 6.Type -1 to quit the game
 
 ## Project Structure
 - bitboard_checkers.h - Header file with type definitions and function declarations
